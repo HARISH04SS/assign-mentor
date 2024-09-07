@@ -1,0 +1,29 @@
+{
+  "name": "mentorstudent",
+  "version": "1.0.0",
+  "description": "mentor anf student",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HARISH04SS/assign-mentor.git"
+  },
+  "author": "Harish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HARISH04SS/assign-mentor/issues"
+  },
+  "homepage": "https://github.com/HARISH04SS/assign-mentor#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
